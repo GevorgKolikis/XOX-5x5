@@ -218,13 +218,33 @@ let dia4 = blocks[8].textContent == blocks[12].textContent &&
     blocks[8].textContent == blocks[16].textContent &&
     blocks[8].textContent == blocks[20].textContent && blocks[8].textContent !== ""
 
-if (dia1 || dia2 || dia3 || dia4) {
+let dia5 = blocks[1].textContent == blocks[7].textContent &&
+    blocks[1].textContent == blocks[13].textContent &&
+    blocks[1].textContent == blocks[19].textContent && blocks[1].textContent !== ""
+
+let dia6 = blocks[5].textContent == blocks[11].textContent &&
+    blocks[5].textContent == blocks[17].textContent &&
+    blocks[5].textContent == blocks[23].textContent && blocks[5].textContent !== ""
+
+let dia7 = blocks[3].textContent == blocks[7].textContent &&
+    blocks[3].textContent == blocks[11].textContent &&
+    blocks[3].textContent == blocks[15].textContent && blocks[3].textContent !== ""
+
+let dia8 = blocks[9].textContent == blocks[13].textContent &&
+    blocks[9].textContent == blocks[17].textContent &&
+    blocks[9].textContent == blocks[21].textContent && blocks[9].textContent !== ""    
+
+if (dia1 || dia2 || dia3 || dia4 || dia5 || dia6 || dia7 || dia8) {
     gameOver = true
 }
 if (dia1) return winner = blocks[0].textContent
 if (dia2) return winner = blocks[6].textContent 
 if (dia3) return winner = blocks[4].textContent
 if (dia4) return winner = blocks[8].textContent 
+if (dia5) return winner = blocks[1].textContent
+if (dia6) return winner = blocks[5].textContent 
+if (dia7) return winner = blocks[3].textContent
+if (dia8) return winner = blocks[9].textContent 
 }
 
 

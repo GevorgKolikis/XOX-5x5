@@ -150,7 +150,7 @@ let col2 = blocks[1].textContent == blocks[6].textContent &&
 
 let col3 = blocks[2].textContent == blocks[7].textContent &&
     blocks[2].textContent == blocks[12].textContent  &&
-    blocks[2].textContent == blocks[13].textContent  && blocks[2].textContent !== ""
+    blocks[2].textContent == blocks[17].textContent  && blocks[2].textContent !== ""
 
 let col4 = blocks[3].textContent == blocks[8].textContent &&
     blocks[3].textContent == blocks[13].textContent  &&
